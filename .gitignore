@@ -1,2 +1,19 @@
+# Ignore node_modules directory
 node_modules/
-package-lock.json
+
+# Ignore Tailwind's output CSS
+src/output.css
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore build and cache files
+dist/
+.cache/
