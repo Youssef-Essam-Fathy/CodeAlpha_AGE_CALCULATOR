@@ -1,7 +1,3 @@
-Here is an updated version of the README file with an installation section added and improved formatting: 
-
----
-
 # CodeAlpha_AGE_CALCULATOR
 
 A simple web-based **Age Calculator** that calculates users' ages based on their submitted date of birth (day, month, and year). This project leverages JavaScript's built-in date and time functions to simplify the age calculation process.
