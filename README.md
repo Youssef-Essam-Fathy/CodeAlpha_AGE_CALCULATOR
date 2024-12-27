@@ -56,7 +56,7 @@ Make sure you have the following installed:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/CodeAlpha_AGE_CALCULATOR.git
+   git clone https://github.com/CodeAlpha_AGE_CALCULATOR.git
    ```
 2. Navigate to the project directory:
    ```bash
