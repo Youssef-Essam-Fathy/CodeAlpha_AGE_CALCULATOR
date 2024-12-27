@@ -68,7 +68,7 @@ Make sure you have the following installed:
    ```
 4. Build Tailwind CSS:
    ```bash
-   npx tailwindcss -i ./src/style.css -o ./src/output.css --watch
+   npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
    ```
 5. Open the application:
    Open `index.html` in your browser to view the application.
