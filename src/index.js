@@ -17,7 +17,7 @@ ageButton.addEventListener("click", function(e) {
 
         // Check if user doesn't enter the DOB
         if (!input) {
-            alert('You have to enter your Date of birth');
+            alert('You have to enter your Date of birth!');
             return;
         }
 
@@ -39,7 +39,7 @@ ageButton.addEventListener("click", function(e) {
         // Dealing with cases in which birth day or month is > current ones
         if (userDay < 0) {
             userMonth--;
-            userDay += new Date(currentDay, currentMonth - 1, 0).getDate();
+            userDay += new Date(currentYear, currentMonth - 1, 0).getDate();
         } 
 
         if (userMonth < 0) {
